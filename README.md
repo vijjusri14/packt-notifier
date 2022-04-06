@@ -2,7 +2,7 @@
 
 ![PacktNotifier](PacktNotifier.png)
 
-This is a chromium extention written in React with typescript. This extension will shows today's free book of the day details.
+This is a chromium extension written in React with typescript. This extension will shows today's free book of the day details.
 
 Download from [Microsoft Edge webstore](https://microsoftedge.microsoft.com/addons/detail/packtpub-free-learning/onghondkmjkknebcapdhfnegaelpdcll) 
 
