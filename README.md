@@ -1,4 +1,9 @@
 <h1 align="center"> Packt Notifier - Free book of the day </h1>
+<p align="center">
+<a href="https://microsoftedge.microsoft.com/addons/detail/packtpub-free-learning/onghondkmjkknebcapdhfnegaelpdcll"><img src="https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fonghondkmjkknebcapdhfnegaelpdcll"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/packtpub-free-learning/onghondkmjkknebcapdhfnegaelpdcll"><img src="https://img.shields.io/badge/dynamic/json?label=rating&suffix=/5&query=%24.averageRating&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fonghondkmjkknebcapdhfnegaelpdcll"></a>
+<a href="https://microsoftedge.microsoft.com/addons/detail/packtpub-free-learning/onghondkmjkknebcapdhfnegaelpdcll"><img src="https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fonghondkmjkknebcapdhfnegaelpdcll"></a>
+</p>
 
 ![PacktNotifier](PacktNotifier.png)
 
