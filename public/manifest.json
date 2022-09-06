@@ -2,9 +2,18 @@
   "name": "PacktPub Free Learning Notifier",
   "description": "A Chrome extension that notifies you when a new book is available for free on PacktPub.",
   "author": "Vijay Bhaskar",
-  "version": "1.0",
+  "version": "1.2",
   "manifest_version": 3,
-  "permissions": [],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestFeedback"],
   "action": {
     "default_popup": "index.html",
     "default_title": "Free book of the day",
@@ -15,6 +24,7 @@
       "128": "/images/book128.png"
     }
   },
+  "host_permissions": ["https://www.packtpub.com/"],
   "icons": {
     "16": "/images/book16.png",
     "32": "/images/book32.png",

@@ -1,0 +1,43 @@
+.App {
+  @apply px-4 min-h-screen flex flex-col items-center justify-center bg-orange-200;
+
+  .loader {
+    @apply animate-spin h-32 w-32;
+  }
+
+  .container {
+    @apply py-8 px-8 max-w-3xl mx-auto bg-white rounded-xl shadow-lg sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6;
+
+    .coverImage {
+      @apply block mx-auto h-64 rounded-lg sm:mx-0 sm:shrink-0;
+    }
+
+    .offerSection {
+      @apply text-center sm:text-left;
+
+      .bookTitle {
+        @apply text-2xl text-ellipsis overflow-hidden text-black font-semibold;
+      }
+
+      .authorName {
+        @apply text-xs text-gray-500 font-medium;
+      }
+
+      .bookMetadata {
+        @apply my-2 text-xs text-gray-500 font-medium;
+      }
+
+      .descriptionSection {
+        @apply md:h-20;
+
+        .description {
+          @apply my-2 text-sm text-gray-700 font-medium;
+        }
+      }
+
+      .claimButton {
+        @apply px-4 py-1 text-sm text-orange-600 font-semibold rounded-full border border-orange-200 hover:text-white hover:bg-orange-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-orange-600 focus:ring-offset-2;
+      }
+    }
+  }
+}
